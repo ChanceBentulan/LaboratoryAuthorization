@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+$font-face: 'Inter', sans-serif;
+
+// @font-face {
+//     font-family: 'Inter';
+//     font-weight: 100 900;
+//     font-display: swap;
+//     font-style: normal;
+//     font-named-instance: 'Regular';
+//     src: url("~/src/fonts/Inter.woff2?v=3.19") format("woff2");
+// }
+
+// @font-face {
+//     font-family: 'Inter';
+//     font-weight: 100 900;
+//     font-display: swap;
+//     font-style: italic;
+//     font-named-instance: 'Italic';
+//     src: url("~/src/fonts/Inter-italic.woff2?v=3.19") format("woff2");
+// }
+
+*,
+*::before,
+*::after {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body .modal-open {
+    overflow: hidden;
+    position: fixed;
+}
+
+.hidden {
+    display: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    margin: 0;
+    padding: 0;
+}
