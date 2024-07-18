@@ -1,0 +1,11 @@
+Flask
+Flask-Admin
+Flask-RESTful
+Flask-SQLAlchemy
+Flask-Migrate
+SQLAlchemy
+Flask-Cors
+Flask-APScheduler
+werkzeug
+PyJWT
+flask_jwt_extended
